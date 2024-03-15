@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Ojuju:wght@200..800&display=swap');
+
+body{
+    font-family: 'Ojuju';
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+    --primary-color: #8F8487;
+    --secondary-color: #7cc6fe;
+    --accent1-color: #a24110;
+    --accent2-color: #b5bd82;
+    
+    --heading-font: 'Madimi One', san;
+    --paragraph-font: 'Ojuju', san-serif;
+
+    --nav-background-color:var(--accent2-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color:var(--accent1-color);
+    --nav-hover-background-color:var(--primary-color)
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    
+}
+
