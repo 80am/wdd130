@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 nav{
     background-color: steelblue;
     padding: 10px;
+    border: black dotted 5px;
+    margin-bottom: 5% ;
+    
+
 }
 
 nav a{
@@ -18,12 +26,16 @@ h1{
 }
 
 img{
-    width: 150px;
+    /* width: 150px; */
     height: auto;
-    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
 
+
+main p{
+    margin-bottom: 5%;
+    margin-top: 10px;
 }
 
 p{
@@ -43,20 +55,30 @@ aside{
     background-color: #eee;
     color: #333;
     text-align: center;
+}
 
-
+aside h2{
+    position: absolute;
+    top:  47px;
+    left: 105px;
+    
 }
 
 aside img{
-    max-width: 200px;
+    max-width: 300px;
     height: auto;
+    float: none;
+    /* margin-top: 10px; */
+    border: 5px solid rgb(92, 180, 70);
 
 }
 
 main img{
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
-
+    float: right;
+    margin-top: 10px;
+    border: 5px solid cyan;
 }
 
 p { padding: 0;}
@@ -75,4 +97,16 @@ body{
 
 :root{
     --primary-color: 
+}
+
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 2px dotted cyan;
+    padding: 1rem;
+    background-color: burlywood;
+    color: #000;
+    position: relative;
 }
