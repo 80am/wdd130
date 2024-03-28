@@ -67,7 +67,8 @@ h1, h2, h3, h4, h5, h6 {
     border: orange solid 6px;;
 }
 
-.hero img{
+.heropic{
+/* .hero img{ */
     display: block;
     width: 100%;
     height: auto;
@@ -95,10 +96,10 @@ section{
     padding-left: 40%;
     
 }
-.hero p{
+article p{
     /* position: absolute; */
     /* border: red solid 4px; */
-    bottom: 40%;
+    bottom: 80%;
     background-color: var(--primary-color);
     box-shadow: 0 0 30px #111;
 	/* opacity: 0.8; */
@@ -107,8 +108,6 @@ section{
     font-size: larger;
     left: 10%;
     right: 10%;
-    
-    
 }
 
 header{
@@ -117,12 +116,15 @@ header{
 
 article{
     border: red solid 4 px;
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
+    /* width: 100%; */
     position: absolute;
 }
 
 article img{
     float: right;
-    
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+
 }
