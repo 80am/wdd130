@@ -9,7 +9,7 @@
 nav{
     background-color: steelblue;
     padding: 1rem;
-    border: black dotted 5px;
+    /* border: black dotted 5px; */
     /* margin-bottom: 5% ; */
     display: flex;
     justify-content: space-evenly;
@@ -88,7 +88,7 @@ main img{
     height: auto;
     float: right;
     margin-top: 10px;
-    border: 5px solid cyan;
+    /* border: 5px solid cyan; */
 }
 
 p { padding: 0;}
