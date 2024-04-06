@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/cs2?family=Merriweather&family=Roboto&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: Merriweather, Georgia, serif; */
+    font-size:1.2em;
+    color: #333;
+    /* background: #fff; */
+    display: grid;
+    border: 3px solid black;
+    justify-content: center;
+   
+
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+
+}
+
+h1{
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+
+}
+
+form{
+    width: 550;
+    /* margin: 0 auto; */
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* border: 2px solid rgba(250, 3, 131, 0.933); */
+    /* border-radius: 8.5; */
+    background-color: #eee;
+    display: grid;
+    margin: 1rem;
+    grid-gap: 15px;
+}
+
+.form-item{
+    display: grid;
+    grid-gap: 7px;
+    /* align-items: center; */
+    /* border: cyan solid 2px; */
+    padding-bottom: 10px;
+
+}
+
+.row4{
+   padding-bottom: 30px;
+}
+
+button{
+    /* margin: 1rem; */
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    /* width: 20%; */
+
+}
+
+label::first-letter{
+    font-weight: bold;
+    color: navy;
+}
+
+
