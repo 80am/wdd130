@@ -38,7 +38,7 @@ input, select, textarea {
 }
 
 form{
-    width: 550;
+    width: 550px;
     /* margin: 0 auto; */
     padding-top:3rem;
     padding-bottom: 3rem;
