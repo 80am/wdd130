@@ -148,9 +148,19 @@ article img{
     
     
 }
-
+/* 
 figure {
-    /* border: thin #c0c0c0 solid; */
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    height: 100px;
+  } */
+
+  figure{
+    border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
@@ -158,18 +168,19 @@ figure {
     margin: auto;
     height: 100px;
   }
-
-  figure img {
-    max-width: 200px;
-    max-height: 200px;
-  }
   
+  figure img{
+    max-width: 220px;
+    max-height: 150px;
+  }
+
   figcaption {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    
   }
   
   .div{
