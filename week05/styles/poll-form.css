@@ -32,7 +32,7 @@ form{
     width: 650;
     margin: 0 auto;
     padding:1rem;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgb(241, 11, 199);
     border-radius: 0.5;
     background-color: #eee;
     display: grid;
