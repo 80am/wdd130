@@ -298,3 +298,65 @@ body{
     background-color: #eee;
 
 }
+
+.trip1, .trip2, .trip3 {
+    display: flex;
+    /* border: yellow solid 4px; */
+    padding-bottom: 90px;
+    
+
+}
+.trip1{
+    padding-top: 30px;
+}
+
+.section0, .section01{
+    display: flex;
+    border: 1px blue solid;
+}
+.innerdelaybox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.innerdelaybox button{
+    width: 500px;
+    height: 500x;
+
+}
+ td, th{
+    border: 1px black solid;
+    width: 600px;
+    justify-items: center;
+    background-color: lightblue;
+    
+    /* color: white; */
+    
+ }
+ .gridbox{
+    padding-bottom: 30px;
+ }
+ legend{
+    /* padding-left: 150px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+ }
+
+ button:hover {
+    background-color: darkgreen;
+    color: white;
+
+}
+button{
+    background-color: slategray;
+    color: white;
+    height: 50px;
+    font-size: 2em;
+
+}
+
+.line {
+    border-bottom: 1px solid #888;
+  }
