@@ -98,7 +98,7 @@ article img {
 }
 
 article p {
-    margin: 0; /* Removes default margin to better align with the floated image */
+    margin: 0;
 }
 
 section img{
