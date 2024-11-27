@@ -3,8 +3,8 @@
 :root{
     --primary-color: #225560;
     --secondary-color: #EDF060;
-    --accent1-color #D16301;
-	--accent2-color #BBE5E7;
+    --accent1-color: #D16301;
+	--accent2-color: #BBE5E7;
 }
 
 main{
@@ -28,7 +28,7 @@ body {
     font-style: normal;
     /* border: solid red 5px; */
     display: flex;
-    align-items: left;
+    /* align-items: left; */
     flex-direction: column;
     margin-left: 100px;
 }
