@@ -1,0 +1,106 @@
+
+
+:root{
+    --primary-color: #225560;
+    --secondary-color: #EDF060;
+    --accent1-color #D16301;
+	--accent2-color #BBE5E7;
+}
+
+main{
+    max-width: 50%;
+}
+
+a {
+    text-decoration: none;   
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    /* float: right; */
+
+}
+  
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* border: solid red 5px; */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+
+h1{
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+    position: absolute;
+    background: rgba(26, 23, 23, 0.5);
+    width: 100%;
+    text-align: center;
+    top: 80px;
+    color: white;
+    
+}
+
+.hero {
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+/* article{
+    position: absolute;
+    background: rgba(183, 69, 8, 0.5);
+    color: white;
+    
+    bottom: 100px;
+}
+article img{
+    float: right;
+    margin-left: 20px;
+} */
+
+
+/* article {
+    position: absolute;
+    background: rgba(183, 69, 8, 0.5);
+    color: white;
+    bottom: 100px;
+    display: flex;
+    align-items: flex-start;  
+    gap: 20px; 
+} */
+
+/* article img {
+    width: auto;  
+    height: auto;
+} */
+
+article {
+    position: absolute;
+    background: rgba(183, 69, 8, 0.5);
+    color: white;
+    bottom: 140px;
+    /* border: yellow solid 5px; */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+article img {
+    float: right;
+    margin-left: 20px; 
+    max-width: 30%; 
+    /* height: auto;  */
+}
+
+article p {
+    margin: 0; /* Removes default margin to better align with the floated image */
+}
+
+section img{
+    padding: 10px;
+}
