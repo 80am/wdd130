@@ -7,8 +7,9 @@
 	--accent2-color: #BBE5E7;
 }
 
-main{
-    max-width: 50%;
+header, main, footer{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 a {
@@ -36,15 +37,26 @@ body {
 
 h1{
     font-family: "Roboto", serif;
-    font-weight: 100;
+    font-weight: 700;
     font-style: normal;
+    
+
+}
+.hero h1{
     position: absolute;
     background: rgba(26, 23, 23, 0.5);
     width: 100%;
-    text-align: center;
-    top: 80px;
-    color: white;
+    height: 150px;
+
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Horizontally align */
+    align-items: center; /* Vertically align */
     
+    text-align: center;
+    
+    top: 100px;
+    color: white;
+    font-size: 50px;
 }
 
 .hero {
@@ -84,23 +96,25 @@ article {
     position: absolute;
     background: rgba(183, 69, 8, 0.5);
     color: white;
-    bottom: 140px;
+    bottom: 290px;
     /* border: yellow solid 5px; */
     margin-left: 40px;
     margin-right: 40px;
+    
 }
 
 article img {
     float: right;
     margin-left: 20px; 
     max-width: 30%; 
-    /* height: auto;  */
+    height: auto; 
 }
 
 article p {
     margin: 0;
 }
 
-section img{
+.adventure-pictures img {
     padding: 10px;
+    /* border: yellow solid 3px; */
 }
