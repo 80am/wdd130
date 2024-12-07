@@ -9,7 +9,57 @@
 
 header, main, footer{
     max-width: 1200px;
-    margin: 0 auto;
+    margin-left: 200px;
+    /* padding-right: 200px; */
+    /* border: 2px black solid; */
+    
+}
+
+header{
+    display: grid;
+    /* border: red 3px solid; */
+    align-items: center;
+    grid-template-columns: auto 1fr ;
+    /* border: 4px solid black; */
+    /* background-color: var(--accent2-color); */
+    /* background-color: var(--accent1-color); */
+
+}
+
+header img{
+    margin-left: 4rem;
+    width: auto;
+    height: auto;
+    /* grid-column: 1;
+    max-height: 80px; */
+    /* margin-right: 300px; */
+    /* border: yellow solid 5px; */
+    
+}
+
+nav{
+    /* border: steelblue solid 3px; */
+    /* text-align: right; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* max-width: 100%; */
+    /* grid-column: 2; */
+    /* align-items: center; */
+}
+.navlinks{
+    border: solid var(--accent2-color) 5px;
+    display: flex;
+    list-style: none;
+    padding-right: 3px;
+    margin: 0;
+    justify-content: space-around;
+
+}
+
+.navlinks a:hover{
+    color: var(--accent1-color);
+    font-weight: 700;
+    border: 1px solid var(--accent1-color);
 }
 
 a {
@@ -29,9 +79,7 @@ body {
     font-style: normal;
     /* border: solid red 5px; */
     display: flex;
-    /* align-items: left; */
     flex-direction: column;
-    margin-left: 100px;
 }
 
 
@@ -48,9 +96,9 @@ h1{
     width: 100%;
     height: 150px;
 
-    display: flex; /* Use Flexbox */
-    justify-content: center; /* Horizontally align */
-    align-items: center; /* Vertically align */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     
     text-align: center;
     
@@ -62,44 +110,20 @@ h1{
 .hero {
     position: relative;
     /* border: 2px solid red; */
+    /* margin: 0 auto; */
+    /* max-width: 1000px; */
 }
 
-/* article{
-    position: absolute;
-    background: rgba(183, 69, 8, 0.5);
-    color: white;
-    
-    bottom: 100px;
-}
-article img{
-    float: right;
-    margin-left: 20px;
-} */
 
-
-/* article {
-    position: absolute;
-    background: rgba(183, 69, 8, 0.5);
-    color: white;
-    bottom: 100px;
-    display: flex;
-    align-items: flex-start;  
-    gap: 20px; 
-} */
-
-/* article img {
-    width: auto;  
-    height: auto;
-} */
 
 article {
     position: absolute;
     background: rgba(183, 69, 8, 0.5);
     color: white;
     bottom: 290px;
-    /* border: yellow solid 5px; */
     margin-left: 40px;
     margin-right: 40px;
+
     
 }
 
@@ -114,7 +138,67 @@ article p {
     margin: 0;
 }
 
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    margin-top: 10px;
+}
+.adventure-pictures{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: blue solid 3px; */
+    border: 2px black solid;
+    margin-top: 10px;
+}
+.adventure-title{
+    /* border: red solid 4px; */
+    text-align: center;
+}
+.adventure-figure{
+    /* border: yellow solid 3px; */
+    display: flex;
+
+}
 .adventure-pictures img {
     padding: 10px;
     /* border: yellow solid 3px; */
+    max-width: 220px;
+    max-height: 150px;
+    
 }
+
+footer{
+    display: flex;
+    /* justify-content: right; */
+    /* display: grid;
+    grid-template-columns: 40 40 20 ; */
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+.sociallinks a{
+    padding-right: 20px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  
