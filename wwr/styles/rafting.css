@@ -11,43 +11,28 @@ header, main, footer{
     max-width: 1200px;
     margin-left: 200px;
     /* padding-right: 200px; */
-    /* border: 2px black solid; */
+    
     
 }
 
 header{
     display: grid;
-    /* border: red 3px solid; */
     align-items: center;
     grid-template-columns: auto 1fr ;
-    /* border: 4px solid black; */
-    /* background-color: var(--accent2-color); */
-    /* background-color: var(--accent1-color); */
-
 }
 
 header img{
     margin-left: 4rem;
     width: auto;
     height: auto;
-    /* grid-column: 1;
-    max-height: 80px; */
-    /* margin-right: 300px; */
-    /* border: yellow solid 5px; */
-    
 }
 
 nav{
-    /* border: steelblue solid 3px; */
-    /* text-align: right; */
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* max-width: 100%; */
-    /* grid-column: 2; */
-    /* align-items: center; */
-}
-.navlinks{
     border: solid var(--accent2-color) 5px;
+    justify-content: space-around;
+    display: flex;
+}
+nav a{
     display: flex;
     list-style: none;
     padding-right: 3px;
@@ -56,7 +41,7 @@ nav{
 
 }
 
-.navlinks a:hover{
+nav a:hover{
     color: var(--accent1-color);
     font-weight: 700;
     border: 1px solid var(--accent1-color);
@@ -77,7 +62,6 @@ body {
     font-family: "libre baskerville", serif;
     font-weight: 400;
     font-style: normal;
-    /* border: solid red 5px; */
     display: flex;
     flex-direction: column;
 }
@@ -109,9 +93,6 @@ h1{
 
 .hero {
     position: relative;
-    /* border: 2px solid red; */
-    /* margin: 0 auto; */
-    /* max-width: 1000px; */
 }
 
 
@@ -147,41 +128,34 @@ article p {
 }
 .adventure-pictures{
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
-    /* border: blue solid 3px; */
     border: 2px black solid;
     margin-top: 10px;
 }
 .adventure-title{
-    /* border: red solid 4px; */
     text-align: center;
 }
 .adventure-figure{
-    /* border: yellow solid 3px; */
     display: flex;
 
 }
 .adventure-pictures img {
     padding: 10px;
-    /* border: yellow solid 3px; */
     max-width: 220px;
     max-height: 150px;
-    
 }
 
 footer{
     display: flex;
-    /* justify-content: right; */
-    /* display: grid;
-    grid-template-columns: 40 40 20 ; */
     justify-content: space-around;
     margin-top: 10px;
-
 }
 
 .sociallinks a{
     padding-right: 20px;
+}
+.sociallinks{
+    border: none;
 }
 
 figure {
@@ -202,3 +176,121 @@ figure {
     text-align: center;
   }
   
+
+
+  /*-------- Contact Page -------*/
+
+.employees{
+    /* display: grid; */
+    display: flex;
+    /* justify-items: flex-end; */
+    border: black 2px solid;
+    /* padding: 50px; */
+    background-color: var(--accent2-color);
+    /* background-color: var(--secondary-color); */
+    background-color: var(--primary-color);
+    padding-right: 20px;
+    margin: 5px;
+    border-radius: .5rem;
+
+    
+}
+
+.contactinfo{
+    display: grid; 
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mainsection{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border-radius: .5rem;
+}
+
+.mainsection{
+    background-color: var(--accent2-color);
+}
+form{
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: var(--accent2-color);
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend{
+    padding: .5rem;
+    color: var(--accent1-color);
+    font-size: 1.3em;
+}
+
+label,input,button,select,textarea{
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label{
+    text-align: left;
+    padding-right: 1rem;
+
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+
+}
+
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+input[type="radio"]{
+    transform: scale(1.3);
+    border: green solid 2px;
+}
+
+button{
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: white;
+    color: navy;
+    border: 1px red solid;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    margin: .5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+}
