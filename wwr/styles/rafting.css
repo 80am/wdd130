@@ -149,10 +149,13 @@ footer{
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    border-top: solid lightgray 1px;
 }
 
 .sociallinks a{
     padding-right: 20px;
+    margin-top: 10px;
+    
 }
 .sociallinks{
     border: none;
@@ -434,7 +437,6 @@ button:hover{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .grid-layout {
       grid-template-columns: 1fr;
