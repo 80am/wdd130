@@ -104,6 +104,8 @@ article {
     bottom: 290px;
     margin-left: 40px;
     margin-right: 40px;
+    text-align: center;
+    
 
     
 }
@@ -117,6 +119,7 @@ article img {
 
 article p {
     margin: 0;
+    
 }
 
 .history{
