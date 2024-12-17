@@ -95,8 +95,6 @@ h1{
     position: relative;
 }
 
-
-
 article {
     position: absolute;
     background: rgba(183, 69, 8, 0.5);
@@ -105,9 +103,6 @@ article {
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
-    
-
-    
 }
 
 article img {
@@ -449,5 +444,43 @@ button:hover{
     }
   }
   
+/* -----Trips Section----- */
 
 
+
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    margin-bottom: 40px;
+  }
+  
+  .trip-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(183, 69, 8, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .trip-content h2 {
+    font-size: 1.8rem;
+    color: #b74508;
+    margin-bottom: 10px;
+  }
+  
+  .trip-content p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .trip-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
