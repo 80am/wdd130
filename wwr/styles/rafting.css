@@ -3,7 +3,8 @@
 :root{
     --primary-color: #225560;
     --secondary-color: #EDF060;
-    --accent1-color: #D16301;
+    /* --accent1-color: #D16301; */
+    --accent1-color: #af5404;
 	--accent2-color: #BBE5E7;
 }
 
@@ -238,6 +239,7 @@ legend{
     padding: .5rem;
     color: var(--accent1-color);
     font-size: 1.3em;
+    font-weight: 700;
 }
 
 label,input,button,select,textarea{
